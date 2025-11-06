@@ -12,7 +12,7 @@ export default function CTA() {
   </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-1xl font-titulos md:text-5xl font-bold mb-6">
+        <h2 className="text-4xl font-titulos md:text-5xl font-bold mb-6">
           En Rock&Feller's tu negocio <br /> <span className="text-primary font-titulos"> suena mejor</span>
         </h2>
 

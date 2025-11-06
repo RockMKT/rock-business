@@ -22,13 +22,13 @@ export default function Hero() {
     </div>
 
     {/* Main Headline */}
-    <h1 className="text-5xl md:text-7xl font-titulos font-bold mb-6 leading-tight">ROCK&BUSINESS</h1>
+    <h1 className="text-4xl md:text-7xl font-titulos font-bold mb-6 leading-tight">ROCK&BUSINESS</h1>
 
     {/* Subtitle */}
-    <p className="text-xl md:text-2xl font-texto italic text-muted-foreground mb-4">PARA TUS REUNIONES Y EVENTOS CORPORATIVOS</p>
+    <p className="text-lg md:text-2xl font-texto italic text-muted-foreground mb-4">PARA TUS REUNIONES Y EVENTOS CORPORATIVOS</p>
 
     {/* Description */}
-    <p className="text-base md:text-lg font-texto text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
+    <p className="text-sm md:text-lg font-texto text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
       Rock&Feller's es mucho más que un restaurante. Nacido del espíritu
 emprendedor de sus fundadores hace más de 30 años, evolucionó hacia un
 espacio premium donde gastronomía, arquitectura, tecnología y la mística
@@ -38,14 +38,14 @@ del rock se combinan para ofrecer experiencias corporativas memorables.
     {/* CTA Buttons */}
     <div className="flex flex-col sm:flex-row gap-4 justify-center">
       <a href="mailto:contacto@rockandfellersba.com.ar?subject=Consulta%20Rock%20Business&body=Hola!%20Estoy%20interesado%20en%20saber%20sobre%20Rock%20Business.">
-                <button className="px-8 font-titulos cursor-pointer py-3 bg-primary text-white font-bold hover:bg-opacity-90 transition-all">
-        SOLICITAR PRESUPUESTO
-      </button>
+        <button className="px-8 font-titulos cursor-pointer py-3 bg-primary text-white font-bold hover:bg-opacity-90 transition-all">
+          SOLICITAR PRESUPUESTO
+        </button>
       </a>
       <Link href='#locations'>
-              <button className="px-8 py-3 cursor-pointer font-titulos border-2 border-primary text-primary font-bold hover:bg-primary/10 transition-all">
-        VER SEDES
-      </button>
+        <button className="px-8 py-3 cursor-pointer font-titulos border-2 border-primary text-primary font-bold hover:bg-primary/10 transition-all">
+          VER SEDES
+        </button>
       </Link>
     </div>
   </div>
