@@ -21,12 +21,11 @@ export default function CTA() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 font-titulos py-4 bg-primary text-white font-bold text-lg hover:bg-opacity-90 transition-all">
+          <a href="mailto:contacto@rockandfellersba.com.ar?subject=Consulta%20Rock%20Business&body=Hola!%20Estoy%20interesado%20en%20saber%20sobre%20Rock%20Business.">
+              <button className="px-8 cursor-pointer font-titulos py-4 bg-primary text-white font-bold text-lg hover:bg-opacity-90 transition-all">
             CONTACTAR AHORA
           </button>
-          <button className="px-8 font-titulos py-4 border-2 border-primary text-primary font-bold text-lg hover:bg-primary/10 transition-all">
-            VER GALERÍA
-          </button>
+          </a>
         </div>
 
             <div className="inline-block mt-7  mb-6 px-4 py-2 bg-secondary/80 backdrop-blur-sm border border-primary/20">
