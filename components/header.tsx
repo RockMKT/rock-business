@@ -12,13 +12,13 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="#" className="flex items-center gap-2">
+          <a href="https://rockandfellers.com.ar" className="flex items-center gap-2">
             <img 
               src="/logo.png" 
               alt="Rock&Feller's logo" 
               className="h-12 w-auto object-contain"
             />
-          </Link>
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">

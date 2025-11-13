@@ -47,7 +47,7 @@ export default function Footer() {
             <h4 className="font-titulos font-bold mb-4 text-primary">Contacto</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>contacto@rockandfellersba.com.ar</li>
-              <li>www.rockandfellers.com.ar</li>
+              <a href="https://rockandfellers.com.ar"><li>www.rockandfellers.com.ar</li></a>
             </ul>
           </div>
         </div>
